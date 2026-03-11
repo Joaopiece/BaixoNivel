@@ -9,11 +9,15 @@ void Exercicio2() {
     int horas, minutos, segundos;
 
     horas = tempo/3600;
-    tempo = tempo%60;
+    tempo = tempo%3600;
     minutos = tempo/60;
     segundos = tempo%60;
 
     printf("A conversão será: %d horas, %d minutos e %d segundos. " , horas, minutos, segundos);
+
+}
+
+void UltimoExerc() {
 
 }
 
