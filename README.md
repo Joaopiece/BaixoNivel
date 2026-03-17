@@ -1,11 +1,17 @@
-# Desenvolvimento C / C++
-- Repositório base para uso em disciplinas de desenvolvimento de software em C/C++
-- Configurado para desenvolvimento com GCC/G++
-- Pensado para ser usado como "Monorepo" para uma série de projetos de aula
-- As instruções a seguir referem-se ao uso deste repositório em conjunto com o CodeSpaces
+# Comparação de métodos de ordenação na prática
 
-## Criação de Projetos C/++
-Os scripts **create-c-project.sh**/**create-cpp-project.sh** criam um projeto C ou C++ para ser usado em disciplinas de algoritmos e programação
-- Exemplo: para criar um projeto C usando o script use o comando: `./create-c-project.sh meu-projeto`
-- O projeto é criado utilizando o [CMake](https://cmake.org/), uma ferramenta moderna e eficiente para gerenciamento de projetos com vários módulos e dependências (alternativa ao ``Makefile`` criado manualmente)
-- Para compilar e executar o projeto use as opções do VSCode, ou o terminal
+- Implementações em C, Java e Python
+- Bubblesort, Mergesort e Quicksort
+- Programas geram vetores de 500 até 100.000 elementos (exceto no bubble, pela questão do desempenho)
+
+## Saída gráfica
+
+O script **plot.gnu** pode ser usado com o Gnuplot para gerar os gráficos de saída (compara2.pdf e compara3.pdf)
+Veja os detalhes dentro do próprio script
+
+Execute com:
+
+``gnuplot plot.gnu``
+
+Obs: o script assume que os arquivos de dados estão na mesma pasta
+
